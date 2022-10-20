@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <title>Document</title>
+    <style>
+        *{margin: 0;
+        padding: 0;}
+
+        .container-fluid {
+            max-width: 1750px
+        }
+
+        .full {
+            height: 100vh;
+        }
+
+        .row {
+            margin: 0;
+        }
+        .link {
+            color: white;
+            text-decoration: none;
+        }
+
+        .branco{
+            color: white;
+        }
+
+        .link:hover {
+            color: #ff41bd;
+        }
+
+        p{
+            font-weight: 700;
+        }
+
+        canvas{
+            height: 0.25vh;
+            width: 90vw;
+            max-width: 1575px;
+            background-color: #939393;
+            margin-left: 5vw;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- header -->
+   <div class="flex justify-content-center full bg-dark">
+        
+        <header style="background-color: #ff3c6d;" class="py-3 container-fluid">
+            <div class="container d-flex flex-wrap justify-content-center">
+            <a href="/" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto text-dark text-decoration-none">
+                <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+                <span class="fs-4">Cine Purple</span>
+                <ul class="nav me-auto">
+                <li class="nav-item"><a href="#" class="nav-link link px-2 active" aria-current="page">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link link px-2">Menu</a></li>
+                <li class="nav-item"><a href="#" class="nav-link link px-2">Pré-vendas</a></li>
+                <li class="nav-item"><a href="#" class="nav-link link px-2">Próximas estreias</a></li>
+                <li class="nav-item"><a href="#" class="nav-link link px-2">Promoções</a></li>
+            </ul>
+            </a>
+            <form class="col-12 col-lg-auto mb-3 mb-lg-0" role="search">
+                <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+            </form>
+            </div>
+        </header>
+
+            <div style="height: 50vh;" class="container-fluid bg-dark">
+
+            </div>
+
+        <!-- footer -->
+
+        <footer style="background-color: #2f2f2f; color: #ff3c6d; align-items:center; flex-direction:row" class="pt-5 container-fluid">
+            <div class="row">
+            <div class="col-4 text-center pb-2">
+                <h5>Filmes</h5>
+                <ul class="nav flex-column ">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link link p-0">Ingressos</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link link p-0">Em breve</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link link p-0">Em cartaz</a></li>
+                </ul>
+            </div>
+
+            <div class="col-4 text-center pb-2">
+                <h5>Salas</h5>
+                <ul class="nav flex-column">
+                <li class="nav-item mb-2 "><a href="#" class="nav-link link p-0">3D</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link link p-0">4D</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link link p-0">Legendas</a></li>
+
+                </ul>
+            </div>
+
+            <div class="col-4 text-center pb-2">
+                <h5>Redes sociais</h5>
+                <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link link p-0">Instagram</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link link p-0">Facebook</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link link p-0">Whatsapp</a></li>
+
+                </ul>
+            </div>
+
+            
+            </div>
+
+            <canvas></canvas>
+
+            <div class="d-flex flex-column flex-sm-row justify-content-center pb-2 pt-3 my-8">
+            <p>&copy; 2022 Cine Purple, Inc. All rights reserved.</p>
+            
+            </div>
+        </footer>
+
+    </div>
+</body>
+</html>
